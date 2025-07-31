@@ -1,0 +1,11 @@
+{
+  "name": "CompilerEnv",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "mkdir -p /workspace && cd /workspace",
+  "remoteUser": "root"
+}
